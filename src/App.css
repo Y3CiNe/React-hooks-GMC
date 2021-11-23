@@ -1,0 +1,19 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: "10px";
+  background-color: "lightGray";
+  width: "300px";
+  height: "400px";
+}
+
+body {
+  color : rgb(168, 168, 207)
+}

@@ -22,11 +22,11 @@ const AppMovies = () => {
             note: '5',
             imgSrc:'terminator.jpg'},
         {
-            titre: "Assassin's Creed",
+            titre: "Shang-Chi",
             description: "In the film, Callum Lynch explores the memories of his ancestor Aguilar de Nerha and gains the skills of a Master Assassin, before taking on the secret Templar society. Filming began in late August 2015 and concluded in January 2016.",
             url: "123456",
             note: '5',
-            imgSrc:"assasinscreed.jpg"
+            imgSrc:"Shang.jpg"
         },
         {
             titre: "Last Samurai",
@@ -43,18 +43,18 @@ const AppMovies = () => {
             imgSrc:"mission.jpg"
         },
         {
-            titre: "Need For Speed",
+            titre: "Mortal Kombat ",
             description: "In the film, Callum Lynch explores the memories of his ancestor Aguilar de Nerha and gains the skills of a Master Assassin, before taking on the secret Templar society. Filming began in late August 2015 and concluded in January 2016.",
             url: "123456",
             note: '5',
-            imgSrc:"need.jpg"
+            imgSrc:"Mortal_Kombat.jpg"
         },
         {
-            titre: "The Mummy",
+            titre: "Black Friday",
             description: "An ancient Egyptian princess is awakened from her crypt beneath the desert, bringing with her malevolence grown over millennia, and terrors that defy human comprehension.",
-            url: "123456",
+            url: "BF.jpg",
             note: '5',
-            imgSrc:"the_mummy.jpg"
+            imgSrc:"BF.jpg"
         },
     ]);
     const [searchTerm, setSearchTerm] = useState("");
